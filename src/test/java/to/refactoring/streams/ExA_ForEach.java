@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.util.List;
+import java.util.function.Consumer;
 
 import static java.util.Arrays.asList;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -19,7 +20,7 @@ import static to.refactoring.runner.ExampleRunner.Way;
 public class ExA_ForEach {
 
     @Way
-    public static void old_java_for_loop(List<String> things, PrintWriter writer) {
+    public static void indexed_for_loop(List<String> things, PrintWriter writer) {
         for (int i = 0; i < things.size(); i++) {
             writer.println(things.get(i));
         }

@@ -20,11 +20,10 @@ public class ExA_ForEach {
     @Test
     public void indexed_for_loop() {
         for (int i = 0; i < things.size(); i++) {
-            String s = things.get(i);
-            printer.println(s.toUpperCase());
+            printer.println(things.get(i));
         }
 
-        assertThat(text.toString(), equalTo("ONE\nTWO\nTHREE\nFOUR\n"));
+        assertThat(text.toString(), equalTo("one\ntwo\nthree\nfour\n"));
     }
 }
 

@@ -13,6 +13,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 
 public class ExA_ForEach {
+
     final List<String> things = asList("one", "two", "three", "four");
 
     final StringWriter text = new StringWriter();

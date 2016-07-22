@@ -1,12 +1,6 @@
+1. Duncan on the right, Nat on the left.
 
-1. Quit things that may show popups:
- * Slack
- * Google Drive
- * Screen Sharing
- * Hangout
- * Etc.
- 
- Only run:
+2. Quit everything that may show popups. Only run:
  * Camtasia
  * IntelliJ
  * Finder (you can't quit this)
@@ -15,6 +9,8 @@
 
 4. Start recording
 
-5. Make IntelliJ full-screen
+5. Check it's really recording!
 
-6. Start talking!
+6. Make IntelliJ full-screen
+
+7. Start talking!

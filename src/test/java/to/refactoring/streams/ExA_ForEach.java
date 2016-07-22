@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.List;
+import java.util.function.Consumer;
 
 import static java.util.Arrays.asList;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -22,7 +23,6 @@ public class ExA_ForEach {
         for (int i = 0; i < things.size(); i++) {
             printer.println(things.get(i));
         }
-
         assertThat(text.toString(), equalTo("one\ntwo\nthree\nfour\n"));
     }
 }

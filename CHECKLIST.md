@@ -5,12 +5,14 @@
  * IntelliJ
  * Finder (you can't quit this)
 
-3. Change monitor resolution to 1280x800
+3. Sound check - check input levels, ensure high volumes are not clipped, that microphones are not too close to the mouth.
 
-4. Start recording
+4. Change monitor resolution to 1280x800
 
-5. Check it's really recording!
+5. Start recording
 
-6. Make IntelliJ full-screen
+6. Check it's really recording!
 
-7. Start talking!
+7. Make IntelliJ full-screen
+
+8. Start talking!

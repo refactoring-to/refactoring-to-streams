@@ -36,7 +36,7 @@ public class ExF_Find {
 
     @Test
     public void returns_null_if_nothing_found() {
-        assertThat(find(asList("one", "two", "three"), s -> s.startsWith("f")), nullValue());
+        assertThat(find(asList("one", "two", "three"), s -> s.startsWith("f")), equalTo(null));
     }
 
     @Test

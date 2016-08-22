@@ -17,13 +17,12 @@ public class ExB_Map {
     final List<String> numbers = asList("2", "3", "5", "7");
 
     @Test
-    public void indexed_for_loop() {
-        List<Integer> result = new ArrayList<>();
+    public void for_loop() {
+        List<Integer> parsed = new ArrayList<>();
         for (String each : numbers) {
-            result.add(Integer.parseInt(each));
+            parsed.add(Integer.parseInt(each));
         }
 
-        assertThat(result, equalTo(asList(2, 3, 5, 7)));
+        assertThat(parsed, equalTo(asList(2, 3, 5, 7)));
     }
 }
-

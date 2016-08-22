@@ -10,11 +10,11 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 
-public class ExC_Filtering {
+public class ExC_Filter {
     List<Integer> numbers = asList(1, 2, 3, 4, 5, 6, 7, 8);
 
     @Test
-    public void filtering_even_numbers() {
+    public void for_loop_with_conditional() {
         List<Integer> evenNumbers = new ArrayList<>();
         for (int x : numbers) {
             if (x % 2 == 0) {

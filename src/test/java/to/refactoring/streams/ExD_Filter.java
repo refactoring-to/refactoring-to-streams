@@ -10,7 +10,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 
-public class ExC_Filter {
+public class ExD_Filter {
     List<Integer> numbers = asList(1, 2, 3, 4, 5, 6, 7, 8);
 
     @Test
